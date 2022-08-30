@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit, sans-serif;
+}
+
+main {
+    max-width: 330px;
+    max-height: 540px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    
+    
+    border-radius: 15px;
+    
+    padding: 20px;
+}
+
+.main-image {
+    max-width: 290px;
+    max-height: 290px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.top-image:hover{
+    
+    opacity: 1;
+
+}
+
+.top-image {
+    position: absolute;
+    opacity: 0;
+    padding: 121px;
+    background-color: rgb(0, 255, 247, 0.5);
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+
+
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 400px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 20px;
+}
+.header {
+    color: hsl(0, 0%, 100%);
+    font-size: 21px;
+    font-weight: 600px;
+    display: inline;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.price {
+
+    margin-top: 20px;
+}
+
+.created {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.creator-image {
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+.creator-container {
+    margin-top: 15px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+h2 {
+    padding-left: 10px;
+    color: hsl(215, 51%, 70%);
+    
+}
+
+.wyvern {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+}
+
+.price1 {
+    color: hsl(178, 100%, 50%);
+}
+
+.price-image {
+    margin-right: 10px;
+}
+
+
+.header:hover, .wyvern:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+
+
